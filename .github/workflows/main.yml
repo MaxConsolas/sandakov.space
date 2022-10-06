@@ -13,7 +13,7 @@ env:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       # Делаем checkout текущей ветки
       - uses: actions/checkout@v2
