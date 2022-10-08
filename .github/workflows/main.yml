@@ -17,6 +17,12 @@ jobs:
     steps:
       # Делаем checkout текущей ветки
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+      # Устанавливаем зависимости для сборки
+      - name: Install pnpm
+        run: npm i -g pnpm
       # Устанавливаем зависимости для сборки
       - name: Install Dependencies
         run: pnpm i
