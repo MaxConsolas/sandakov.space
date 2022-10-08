@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - master
 
 env:
   DEPLOY_PATH: /var/www/app
@@ -31,5 +34,5 @@ jobs:
         run: $BUILD_SCRIPT
       # Тест
       - name: Move to www
-        run: cp -r ./dist DEPLOY_PATH
+        run: cp -r ./dist $DEPLOY_PATH
 
