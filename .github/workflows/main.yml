@@ -9,7 +9,7 @@ on:
       - master
 
 env:
-  DEPLOY_PATH: /var/www/app
+  DEPLOY_PATH: /var/www/html/
   # В теории можно собрать не только Vue-приложение, так как принцип сборки мало где отличается
   BUILD_SCRIPT: pnpm run build
   BUILD_SCRIPT_OUTPUT: dist
