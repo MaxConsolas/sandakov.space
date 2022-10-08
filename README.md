@@ -1,4 +1,6 @@
 # sandakov.space
+[![Visits Badge](https://badges.pufler.dev/visits/MaxConsolas/sandakov.space-frontend)](https://badges.pufler.dev)
+[![Commits Badge](https://badges.pufler.dev/commits/monthly/puf17640)](https://badges.pufler.dev)
 
 ## Project setup
 ```
