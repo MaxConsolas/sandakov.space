@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       # Устанавливаем зависимости для сборки
       - name: Install Dependencies
-        run: pnpm inpm i
+        run: pnpm i
       # Собираем приложение
 #       - name: Build Appliction
 #         run: $BUILD_SCRIPT
