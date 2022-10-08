@@ -10,12 +10,10 @@ on:
 
 env:
   DEPLOY_PATH: /var/www/html/
-  # В теории можно собрать не только Vue-приложение, так как принцип сборки мало где отличается
-  BUILD_SCRIPT: pnpm run build
   BUILD_SCRIPT_OUTPUT: dist
 
 jobs:
-  deploy:
+  install-env:
     runs-on: self-hosted
     steps:
       # Делаем checkout текущей ветки
@@ -29,10 +27,13 @@ jobs:
       # Устанавливаем зависимости для сборки
       - name: Install Dependencies
         run: pnpm i
+  build:
+    runs-on: self-hosted
+    steps:
       # Собираем приложение
       - name: Build Appliction
-        run: $BUILD_SCRIPT
+        run: pnpm run build
       # Тест
       - name: Move to www
-        run: cp -r ./dist/* $DEPLOY_PATH
+        run: cp -r ./$BUILD_SCRIPT_OUTPUT/* $DEPLOY_PATH
 
