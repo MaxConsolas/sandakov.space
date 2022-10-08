@@ -1,6 +1,5 @@
 # sandakov.space
-[![Visits Badge](https://badges.pufler.dev/visits/MaxConsolas/sandakov.space-frontend)](https://badges.pufler.dev)
-[![Commits Badge](https://badges.pufler.dev/commits/monthly/puf17640)](https://badges.pufler.dev)
+[![Made with GH Actions](https://img.shields.io/badge/CI-GitHub_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions "Go to GitHub Actions homepage")
 
 ## Project setup
 ```
