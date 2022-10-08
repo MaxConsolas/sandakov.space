@@ -13,7 +13,7 @@ env:
   BUILD_SCRIPT_OUTPUT: dist
 
 jobs:
-  install-env:
+  build:
     runs-on: self-hosted
     steps:
       # Делаем checkout текущей ветки
@@ -27,9 +27,6 @@ jobs:
       # Устанавливаем зависимости для сборки
       - name: Install Dependencies
         run: pnpm i
-  build:
-    runs-on: self-hosted
-    steps:
       # Собираем приложение
       - name: Build Appliction
         run: pnpm run build
