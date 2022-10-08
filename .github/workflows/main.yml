@@ -34,5 +34,5 @@ jobs:
         run: $BUILD_SCRIPT
       # Тест
       - name: Move to www
-        run: cp -r ./dist $DEPLOY_PATH
+        run: cp -r ./dist/* $DEPLOY_PATH
 
