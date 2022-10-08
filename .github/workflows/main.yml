@@ -27,9 +27,9 @@ jobs:
       - name: Install Dependencies
         run: pnpm i
       # Собираем приложение
-#       - name: Build Appliction
-#         run: $BUILD_SCRIPT
+      - name: Build Appliction
+        run: $BUILD_SCRIPT
       # Тест
-      - name: test
-        run: pnpm run serve 
+      - name: Move to www
+        run: cp . DEPLOY_PATH
 
