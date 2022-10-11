@@ -9,7 +9,7 @@ on:
       - master
 
 env:
-  DEPLOY_PATH: /var/www/front/
+  DEPLOY_PATH: /var/www/sandakov.space/
   BUILD_SCRIPT_OUTPUT: dist
 
 jobs:
