@@ -9,7 +9,7 @@ on:
       - master
 
 env:
-  DEPLOY_PATH: /var/www/html/
+  DEPLOY_PATH: /var/www/front/
   BUILD_SCRIPT_OUTPUT: dist
 
 jobs:
