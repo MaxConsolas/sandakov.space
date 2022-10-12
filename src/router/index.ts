@@ -7,6 +7,10 @@ const routes: Array<RouteRecordRaw> = [
     name: "index",
     component: IndexView,
   },
+  {
+    path: '*',
+    component: IndexView,
+  }
 ];
 
 const router = createRouter({
