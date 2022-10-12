@@ -8,7 +8,7 @@ const routes: Array<RouteRecordRaw> = [
     component: IndexView,
   },
   {
-    path: '*',
+    path: '/:pathMatch(.*)*',
     component: IndexView,
   }
 ];
