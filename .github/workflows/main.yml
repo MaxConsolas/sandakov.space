@@ -32,5 +32,5 @@ jobs:
         run: pnpm run build
       # Тест
       - name: Move to www
-        run: cp -r ./$BUILD_SCRIPT_OUTPUT/* $DEPLOY_PATH
+        run: cp -RT ./$BUILD_SCRIPT_OUTPUT $DEPLOY_PATH
 
