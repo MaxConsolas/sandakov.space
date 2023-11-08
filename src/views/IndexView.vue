@@ -12,8 +12,7 @@
       In addition, I worked closely with Vue and Laravel frameworks.
     </p>
     <p>
-      Outside of programming I enjoy video games and do <a href="https://500px.com/p/sandakov2016?view=photos"
-        style="color: rgb(0, 37, 85);">photography</a>
+      Outside of programming I enjoy video games and investment</a>
     </p>
   </div>
 </template>
