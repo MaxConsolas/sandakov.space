@@ -12,7 +12,7 @@
       In addition, I worked closely with Vue and Laravel frameworks.
     </p>
     <p>
-      Outside of programming I enjoy video games and investment</a>
+      Outside of programming I enjoy video games and photography
     </p>
   </div>
 </template>
